@@ -6,7 +6,9 @@
 ```shell
 npm i
 ```
-이후 index.js를 실행하는 데 필요한 패키지들이 여럿 설치될 것입니다.
+<br>또한 해당 디렉토리에 ffmpeg.exe가 설치되어 있어야 합니다.
+<br>[이 웹사이트](https://www.ffmpeg.org/download.html)에서 자신의 OS에 일치하는 버전으로 설치하십시오.
+<br>이후 index.js를 실행하는 데 필요한 패키지들이 여럿 설치될 것입니다.
 <br>이후 index.js의 마지막 줄에 하위 코드의 매개변수를 변경하여 추가하십시오.
 ```njs
 main('<자신이 원하는 애니의 아이디>');
