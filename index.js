@@ -71,7 +71,7 @@ async function main(id) {
                     [
                         '-hwaccel', 'cuda',
                         '-i', `${processorId}/${index}화.mp4`, 
-                        '-i', `${processorId}/${index}화 자막.srt`, 
+                        '-i', `${processorId}/${index}화 자막.ass`, 
                         '-c', 'copy',
                         '-c:s', 'mov_text',
                         `${processorId}/${index}화 자막.mp4`,
